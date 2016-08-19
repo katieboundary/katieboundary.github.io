@@ -3,16 +3,21 @@ body {
 	font-family: Arial;
 	margin: auto;
 	text-align: center;
-	
+	padding-bottom: 100px;
 }
 h1 {
 	font-family: Cambria;
-	color:#fff3e6;
-	background-color: black;
+	color:#ffcc80;
+	background-color: #3b332b;
 	font-size: 4em;
 	position: relative;
 	z-index: 2 
 
+}
+img {
+   padding:1px;
+   border:2px solid black;
+   background-color:#fff3e6;
 }
 .list {
 	text-align: center;
@@ -22,6 +27,27 @@ h1 {
 #most {
 	padding-right: 150px;
 	padding-left: 150px;
+}	
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+    background-image: url("images/grated-cheese.jpg");
+    color: #fff3e6;
+    font-size: 1.5em; 
+}
+
+table, th, td {
+    border: 1px solid #ffcc80;
+
+    
+}
+th {
+	height: 50px;
+}
+td {
+	height: 30px;
 }
 
 
